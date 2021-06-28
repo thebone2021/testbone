@@ -1,0 +1,207 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+   font-size: 62.5%;
+}
+body{
+    font-family: 'Noto sans kr', sans-serif;
+    color:#333;
+    line-height: 1.6;
+
+}
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#333;
+}
+
+h1, h2{
+    font-weight: 500;
+    line-height:1.2;
+    margin:10px 0 10px 40px;
+}
+p{
+    margin: 10xp 0;
+}
+img{
+    width:100%;
+}
+
+header{
+    position: fixed;
+    width:100vw;
+    background-color: #fff;
+    color:#000;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    border-bottom:4px solid #ffce00;
+    
+    /* box-shadow:0 3px 5px #ffce00; */
+    min-width: 1200px;
+}
+.headerwrap{
+   
+    position: fixed;
+    background-color: #fff;
+    color:#000;
+    height: 100px;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    
+    border-bottom:4px solid #ffce00;
+    
+    /* box-shadow:0 3px 5px #ffce00; */
+
+}
+.headerwrap h1{
+    display: flex;
+    margin: 10px;;
+}
+header.sticky{
+
+    opacity: 0.5;
+    height: 70px;
+    border-bottom: none;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+}
+header a{
+    color:#000;
+    padding: 0;
+    margin-right:100px;
+    font-weight: 500;
+    font-size: 1.68rem;
+    line-height: 35px;
+    text-align: center;
+}
+.navbar{
+   
+    display: flex;
+    justify-content:center ;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar .navtext>a:hover{
+    color:#ffce00;
+    background-color: #fff;
+}
+.menu_area>li:hover:not(.menubox_text), a:hover:not(.menubox_text a){
+    color:#fff;
+    background-color: #ffce00;
+}
+
+
+.gnb a{
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-right: 30px;
+}
+.gnb>a:hover{
+    color:#ffce00;
+    background-color: #fff;
+}
+
+.menu_area{
+    position: absolute;
+    top:101px;
+    left:50%;
+    width: 1200px;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content:space-between;
+    
+}
+.menu_area li{
+   margin-top: 20px;
+}
+
+.menu_area .menubox_nomal {
+    box-shadow:rgba(0, 0, 0, 0.2) 1px 3px 5px ;
+}
+.menu_area a, p{
+    font-size: 1.33rem;
+    margin-left:10px;
+}
+
+.menubox_text{
+    grid-row-start: 1 ;
+    grid-row-end:5;
+    background: url("img/menu_thebon_g.png") no-repeat bottom;
+    background-size:contain;
+}
+.menubox_text sup{
+    font-size: 0.5rem;
+    color:#ffce00;
+    margin-right: 2px;
+    vertical-align: 30%;
+}
+.menubox_text>a{
+    font-size: 1.6rem;
+    l
+
+}
+.menubox_nomal.1{
+    grid-area: 1 /   2;    
+}
+
+.menubox_nomal.4{
+    grid-area: 2 / 2  ;    
+}    
+
+.menubox_form{
+    grid-area: 1/ 5 / 5 /6;
+    
+}
+
+p.gnbtext{font-size: 1.6rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
